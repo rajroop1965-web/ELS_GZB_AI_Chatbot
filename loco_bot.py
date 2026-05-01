@@ -6,7 +6,7 @@ from google import genai
 # --- 1. CONFIGURATION & CLIENT SETUP ---
 # Quota Tip: Moving to the Pay-as-you-go tier in AI Studio increases limits.
 API_KEY = "AIzaSyBGYl37P2CL4XgQ5lb6nr-xN1OZHWfDanE"  
-MODEL_NAME = "models/gemini-2.0-flash" 
+MODEL_NAME = "models/gemini-2.5-flash" 
 
 client = genai.Client(api_key=API_KEY)
 
